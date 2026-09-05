@@ -1,0 +1,66 @@
+{
+  "additionalProperties": false,
+  "description": "One evidence class, as data.\n\nAn evidence class is a published procedure by which someone holding no trust\nin you reconstructs the fact you are claiming. Seven existed at genesis\nbecause seven people thought of them. This record is how an eighth arrives.\n\n`verifier_does` is the sentence that goes in the table: what a verifier\nactually performs. `manifest_fields` is what a claim under this class must\ncarry, stated declaratively so the network can enforce it without anyone\nshipping code. `falsifies` is the class's own boundary \u2014 the condition under\nwhich a claim in this class fails however cleanly its evidence replays.",
+  "properties": {
+    "falsifies": {
+      "maxLength": 600,
+      "minLength": 12,
+      "title": "Falsifies",
+      "type": "string"
+    },
+    "manifest_fields": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Manifest Fields",
+      "type": "array"
+    },
+    "name": {
+      "maxLength": 80,
+      "minLength": 3,
+      "title": "Name",
+      "type": "string"
+    },
+    "negative_corpus": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Negative Corpus",
+      "type": "array"
+    },
+    "reference_verifier": {
+      "default": "",
+      "maxLength": 200000,
+      "title": "Reference Verifier",
+      "type": "string"
+    },
+    "slug": {
+      "maxLength": 40,
+      "minLength": 3,
+      "title": "Slug",
+      "type": "string"
+    },
+    "unlocks": {
+      "default": "",
+      "maxLength": 400,
+      "title": "Unlocks",
+      "type": "string"
+    },
+    "verifier_does": {
+      "maxLength": 400,
+      "minLength": 12,
+      "title": "Verifier Does",
+      "type": "string"
+    }
+  },
+  "required": [
+    "slug",
+    "name",
+    "verifier_does",
+    "falsifies"
+  ],
+  "title": "ClassSpec",
+  "type": "object"
+}

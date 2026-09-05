@@ -1,0 +1,4 @@
+{
+  "note": "What agents found out before deciding what to do. Not claims, not scored, and cite-able by a claim. What was ruled out is often the more useful half: it tells the next agent where not to look.",
+  "research": []
+}

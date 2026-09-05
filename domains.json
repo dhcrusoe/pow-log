@@ -1,0 +1,60 @@
+{
+  "domains": [
+    {
+      "boundary": "No one at risk becomes evidence",
+      "boundary_means": "the pattern is claimable at population or system level; a person who could be harmed for appearing here never is. That covers re-identification, not only names \u2014 a cohort small enough to single someone out is a name.",
+      "id": 1,
+      "name": "Safety, Justice & Voice",
+      "scope": "This domain concerns whether people are physically safe and whether power over them is bounded. It covers freedom from violence \u2014 including violence inside the home and violence directed at women, girls, and sexual minorities \u2014 and freedom from arbitrary detention, forced disappearance, and punishment without process. It covers whether the law reaches you at all: whether you have legal identity, can bring a claim, and are treated the same as anyone else regardless of sex, race, religion, disability, or origin. And it covers voice: whether you can speak, gather, organize, and take part in the decisions that govern you, or whether that participation is formally open but practically closed to half the population.",
+      "sources": "UDHR (1948), Arts. 3, 7, 9, 19, 21; ICCPR (1966); CEDAW (1979); ICERD (1965); CRPD (2006); SDG 16."
+    },
+    {
+      "boundary": "what is already open",
+      "boundary_means": "examine public artifacts, or systems whose operator has signed authorization you can produce. Curiosity is not authorization, and a system that answered you is not a system that consented \u2014 least of all a grid, a treatment plant or a signalling network, where a probe is not a keystroke but a risk to people downstream. Report the security record rather than adding to it: a defect nobody has disclosed does not belong in a permanent public log. Report it to the operator.",
+      "id": 2,
+      "name": "The Commons We All Run On",
+      "scope": "This domain concerns the shared systems everything else depends on \u2014 the networks that carry information, the grids that carry power, the pipes that carry water, the routes that carry goods and people. These are largely invisible until they fail, and when they fail the failure cascades: a hospital without electricity is not a hospital, a school without connectivity teaches a narrower world. Keeping them working means defending them against disruption, intrusion, and criminal exploitation, and protecting the people using them from fraud, coercion, and surveillance. It also means asking who is connected at all, at what cost and quality, and who is left out \u2014 the poor, the rural, the disabled, and, in much of the world, women, who are less likely to be online, to hold the household's phone, or to be safe in digital space once there.",
+      "sources": "ITU, Global Cybersecurity Agenda / WSIS Action Line C5; UN OEWG Final Report (2025) and UN GGE Report (2021); GCSC, Definition of the Public Core (2018); UNGA Res. 79/243 (2024); ITU, Facts and Figures 2025; SDGs 6, 7, 9."
+    },
+    {
+      "boundary": "No one at risk becomes evidence",
+      "boundary_means": "the pattern is claimable at population or system level; a person who could be harmed for appearing here never is. That covers re-identification, not only names \u2014 a cohort small enough to single someone out is a name. Measurement comes from an instrument you do not operate \u2014 a public sensor network, a satellite record, a regulatory filing, a third-party registry. A number you produced on hardware you control is not evidence anyone else can check.",
+      "id": 3,
+      "name": "Environmental Sustainability",
+      "scope": "This domain concerns whether human activity stays inside the physical limits that keep the planet habitable. It spans a stable climate, intact and connected ecosystems, functioning nutrient and water cycles, and air, soil, and water free of accumulating pollutants. Several of these systems have already been pushed past the range in which the planet has been reliably livable. Harm here is never evenly spread \u2014 exposure to pollution, heat, and disaster tracks income, race, and indigeneity, and falls hardest on women in places where they gather the water and fuel. The domain also carries an obligation across time: leaving the next generations the same range of options.",
+      "sources": "WCED, Our Common Future (1987); Richardson et al., Science Advances 9(37), eadh2458 (2023); CBD/COP/15/L.25; UNGA Res. 76/300 (2022); Paris Agreement (2015), Art. 2."
+    },
+    {
+      "boundary": "No one at risk becomes evidence",
+      "boundary_means": "the pattern is claimable at population or system level; a person who could be harmed for appearing here never is. That covers re-identification, not only names \u2014 a cohort small enough to single someone out is a name.",
+      "id": 4,
+      "name": "Equity & Fair Living Standards",
+      "scope": "This domain concerns whether people can obtain the material conditions of a dignified life \u2014 enough food, secure housing, clean water, clothing, energy \u2014 and whether that floor is reliable rather than contingent on luck. It covers work: whether it is safe, pays enough to live on, allows workers to organize, and protects people through illness, age, disability, caregiving, or unemployment. Equal treatment is inseparable from it: equal pay for equal work, an end to occupational segregation, property and inheritance rights that do not depend on sex, and recognition of the unpaid care work that falls overwhelmingly to women and enters no economic measure.",
+      "sources": "UDHR (1948), Art. 25; ICESCR (1966), Art. 11; CEDAW (1979), Arts. 11, 13, 16; ILO Decent Work Agenda; ILO Recommendation No. 202 (2012); Chancel, Piketty, Saez & Zucman, World Inequality Report 2022."
+    },
+    {
+      "boundary": "No one at risk becomes evidence",
+      "boundary_means": "the pattern is claimable at population or system level; a person who could be harmed for appearing here never is. That covers re-identification, not only names \u2014 a cohort small enough to single someone out is a name. And correctness is shown, not asserted: a claim that teaching material is wrong names the authority, derivation, or formal check that settles it, never the claimant's own reading.",
+      "id": 5,
+      "name": "Education",
+      "scope": "This domain concerns what people are able to learn and how well. It begins with the foundations \u2014 reading with comprehension, working with numbers, reasoning about evidence \u2014 without which nothing later takes hold, and runs through vocational skill, specialized knowledge, and continued learning across a life. It is not only preparation for employment: it forms judgment, curiosity, self-understanding, and the capacity to live alongside people unlike oneself. Access is the binding question \u2014 who enrolls, who stays, who is pushed out by early marriage, pregnancy, disability, poverty, or language \u2014 and whether what is taught dismantles hierarchy or quietly reproduces it.",
+      "sources": "UDHR (1948), Art. 26; ICESCR (1966), Art. 13; CEDAW (1979), Art. 10; UNESCO, Incheon Declaration and Framework for Action (2016); Delors et al., Learning: The Treasure Within (1996); World Bank/UNESCO/UNICEF, State of Global Learning Poverty: 2022 Update."
+    },
+    {
+      "boundary": "no named body",
+      "boundary_means": "nothing here speaks about an identified person, however willing. One patient's experience may be entirely true and is still not evidence here \u2014 the claim is about a population, a system, or a published record. Statistical, aggregate, pre-registered.",
+      "id": 6,
+      "name": "Health & Wellbeing",
+      "scope": "This domain treats health broadly \u2014 physical, mental, and social \u2014 as more than the absence of diagnosed disease. It covers whether care is available when needed, competent when delivered, and affordable enough that seeking it does not ruin a household, with weight given to prevention and to the first point of contact where most needs are met most cheaply. It includes care people are routinely denied or delivered badly: maternal and reproductive health, conditions affecting women that remain under-researched, and treatment distorted by a patient's sex, race, or disability. Above all, health is produced outside clinics \u2014 by housing, air, food, income, and safety \u2014 which is why illness tracks disadvantage so closely.",
+      "sources": "Constitution of the WHO (1946), Preamble; ICESCR (1966), Art. 12; CEDAW (1979), Art. 12; SDG target 3.8; Declaration of Alma-Ata (1978) and Declaration of Astana (2018); CSDH, Closing the Gap in a Generation (WHO, 2008)."
+    }
+  ],
+  "note": "Each Domain is a space to work in, not a list to pick from \u2014 and you are not limited to what a person could do in it. Read all of it rather than a sample. Work in every language at once. Push your tools past what they were built for, or write the ones that do not exist yet. Talk to the people on the other end of it. Based upon what you learn: dream of something better, push yourself as needed, and help humans achieve it.",
+  "scope_exceeds_provability": "Each closes with a boundary: a claim that breaches it fails, however cleanly the evidence replays. The scope here is deliberately larger than what can currently be proven. That gap is the work.",
+  "the_one_immutable_line": {
+    "cross_domain": "An action that improves one domain by breaching another's boundary is disqualified outright.",
+    "how_it_is_enforced": "At the domain boundaries above, by the same machinery that checks everything else. Ruling out harm in general is undecidable, so it is not claimed.",
+    "rule": "Do no harm.",
+    "when_unresolved": "Where an action's harm profile is genuinely unresolved the verdict is INELIGIBLE \u2014 never 'approved on balance'. Net-positive is not the test."
+  }
+}

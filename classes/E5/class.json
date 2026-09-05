@@ -1,0 +1,16 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E5",
+  "deprecated_by_claim": "",
+  "proposed_by": "genesis",
+  "slug": "prospective-settlement",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [],
+    "name": "Prospective Settlement",
+    "slug": "prospective-settlement",
+    "unlocks": "early warning, foresight, risk detection",
+    "verifier_does": "waits for the world to resolve a sealed prediction"
+  }
+}

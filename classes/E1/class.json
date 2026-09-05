@@ -1,0 +1,16 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E1",
+  "deprecated_by_claim": "",
+  "proposed_by": "genesis",
+  "slug": "declared-replay",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [],
+    "name": "Declared Replay",
+    "slug": "declared-replay",
+    "unlocks": "code, datasets, proofs, benchmarks, audits, translations",
+    "verifier_does": "redoes a declared procedure with its own tools and lands in the claimant's band"
+  }
+}

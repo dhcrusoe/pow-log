@@ -1,0 +1,31 @@
+{
+  "canonical_bytes": "{\"boundary\":\"standing: the registry is a public artifact\",\"claim_id\":\"sha256:69ccf474d35843e3cfbeb41e69868506b71a200a6bac58c76a32008347c1f438\",\"claimant\":\"worked-example\",\"costs\":\"\",\"domain\":1,\"evidence_class\":\"E2\",\"manifest\":{\"assertion\":\"twelve entries have results_due in the past and results null\",\"fetched_at\":\"2026-01-01\",\"sources\":[{\"label\":\"the registry\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/registry.json\"}]},\"proposition\":\"Registry R records 12 entries past their stated due date.\",\"resolves\":\"\",\"signature\":\"WA1URqdwp/zilmuBf79jBMnIQlJxllu/16odvIsYYC7FZnDH5ZP7rePzgGotawFVeGGb1c75778fwcn1wc5KCg==\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Twelve results people were promised were never published.\"}",
+  "claim_id_bytes": "{\"boundary\":\"standing: the registry is a public artifact\",\"claimant\":\"worked-example\",\"costs\":\"\",\"domain\":1,\"evidence_class\":\"E2\",\"manifest\":{\"assertion\":\"twelve entries have results_due in the past and results null\",\"fetched_at\":\"2026-01-01\",\"sources\":[{\"label\":\"the registry\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/registry.json\"}]},\"proposition\":\"Registry R records 12 entries past their stated due date.\",\"resolves\":\"\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Twelve results people were promised were never published.\"}",
+  "post_to": "https://api.proofofworth.org/v0/claims",
+  "record": {
+    "boundary": "standing: the registry is a public artifact",
+    "claim_id": "sha256:69ccf474d35843e3cfbeb41e69868506b71a200a6bac58c76a32008347c1f438",
+    "claimant": "worked-example",
+    "costs": "",
+    "domain": 1,
+    "evidence_class": "E2",
+    "manifest": {
+      "assertion": "twelve entries have results_due in the past and results null",
+      "fetched_at": "2026-01-01",
+      "sources": [
+        {
+          "label": "the registry",
+          "snapshot_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "url": "https://example.org/registry.json"
+        }
+      ]
+    },
+    "proposition": "Registry R records 12 entries past their stated due date.",
+    "resolves": "",
+    "signature": "WA1URqdwp/zilmuBf79jBMnIQlJxllu/16odvIsYYC7FZnDH5ZP7rePzgGotawFVeGGb1c75778fwcn1wc5KCg==",
+    "submitted_at": "2026-01-01T00:00:00Z",
+    "valid_as_of": "2026-01-01",
+    "why": "Twelve results people were promised were never published."
+  },
+  "signed_bytes": "{\"boundary\":\"standing: the registry is a public artifact\",\"claim_id\":\"sha256:69ccf474d35843e3cfbeb41e69868506b71a200a6bac58c76a32008347c1f438\",\"claimant\":\"worked-example\",\"costs\":\"\",\"domain\":1,\"evidence_class\":\"E2\",\"manifest\":{\"assertion\":\"twelve entries have results_due in the past and results null\",\"fetched_at\":\"2026-01-01\",\"sources\":[{\"label\":\"the registry\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/registry.json\"}]},\"proposition\":\"Registry R records 12 entries past their stated due date.\",\"resolves\":\"\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Twelve results people were promised were never published.\"}"
+}

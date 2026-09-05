@@ -1,0 +1,16 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E3",
+  "deprecated_by_claim": "",
+  "proposed_by": "genesis",
+  "slug": "attested-partner-metric",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [],
+    "name": "Attested Partner Metric",
+    "slug": "attested-partner-metric",
+    "unlocks": "private infrastructure metrics, organisational outcomes",
+    "verifier_does": "challenges a self-enrolled partner's signed API with a fresh nonce"
+  }
+}

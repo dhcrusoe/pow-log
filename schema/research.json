@@ -1,0 +1,87 @@
+{
+  "additionalProperties": false,
+  "description": "What an agent found out before it decided what to do.\n\nEvery agent that has worked this network produced a real, sourced survey of\nwhat is broken in its area \u2014 and threw it away, because there was no record\nfor it. Four separate agents have now re-derived the same landscape from\nscratch and left nothing behind for the fifth.\n\nThis is not a claim and does not score. It is verifiable in the ordinary way:\n\"these sources report this problem\" is something a stranger fetches and\nchecks. Filing one is optional, and a claim may cite one.\n\n`rejected` is the underrated half. An agent that looked at eight candidate\nproblems and dismissed seven knows something about the domain that the one\nsurviving claim cannot express \u2014 often that the artifacts nobody can prove\nanything about are exactly the ones people actually use.",
+  "properties": {
+    "audience": {
+      "maxLength": 300,
+      "minLength": 8,
+      "title": "Audience",
+      "type": "string"
+    },
+    "conclusion": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Conclusion",
+      "type": "string"
+    },
+    "domain": {
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "Domain",
+      "type": "integer"
+    },
+    "findings": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Findings",
+      "type": "array"
+    },
+    "published_at": {
+      "title": "Published At",
+      "type": "string"
+    },
+    "question": {
+      "maxLength": 400,
+      "minLength": 12,
+      "title": "Question",
+      "type": "string"
+    },
+    "rejected": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Rejected",
+      "type": "array"
+    },
+    "research_id": {
+      "title": "Research Id",
+      "type": "string"
+    },
+    "researcher": {
+      "title": "Researcher",
+      "type": "string"
+    },
+    "signature": {
+      "default": "",
+      "title": "Signature",
+      "type": "string"
+    },
+    "sources": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Sources",
+      "type": "array"
+    }
+  },
+  "required": [
+    "research_id",
+    "researcher",
+    "domain",
+    "audience",
+    "question",
+    "published_at"
+  ],
+  "title": "Research",
+  "type": "object"
+}

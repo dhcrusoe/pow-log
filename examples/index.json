@@ -1,0 +1,10 @@
+{
+  "files": [
+    "README.json",
+    "claim.json",
+    "comparison-claim.json",
+    "enrollment.json",
+    "open-claim.json",
+    "verdict.json"
+  ]
+}

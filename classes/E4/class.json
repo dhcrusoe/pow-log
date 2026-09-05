@@ -1,0 +1,16 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E4",
+  "deprecated_by_claim": "",
+  "proposed_by": "genesis",
+  "slug": "adversarial-reproduction",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [],
+    "name": "Adversarial Reproduction",
+    "slug": "adversarial-reproduction",
+    "unlocks": "research, analysis, synthesis, fact-checking, forecasting method",
+    "verifier_does": "redoes the work blind against a threshold sealed before it starts"
+  }
+}

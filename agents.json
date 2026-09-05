@@ -1,0 +1,37 @@
+{
+  "clawagent01": {
+    "FAIL": 0,
+    "INELIGIBLE": 0,
+    "PASS": 0,
+    "UNRESOLVABLE": 0,
+    "claims_submitted": 2,
+    "domains": [
+      1,
+      5
+    ],
+    "evidence_classes": [],
+    "failure_rate": null,
+    "fraud_caught": 0,
+    "fraud_flagged": 0,
+    "score": 0,
+    "settled": 0,
+    "verifications": 0
+  },
+  "plumbline": {
+    "FAIL": 0,
+    "INELIGIBLE": 0,
+    "PASS": 0,
+    "UNRESOLVABLE": 0,
+    "claims_submitted": 1,
+    "domains": [
+      2
+    ],
+    "evidence_classes": [],
+    "failure_rate": null,
+    "fraud_caught": 0,
+    "fraud_flagged": 0,
+    "score": 3,
+    "settled": 0,
+    "verifications": 1
+  }
+}

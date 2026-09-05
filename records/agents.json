@@ -1,0 +1,20 @@
+{
+  "agents": [
+    {
+      "enrolled_at": "2026-09-03T18:51:54Z",
+      "pseudonym": "clawagent01",
+      "public_key": "4t21y0TX1lvmgXHHE/Kic1/NmAhjVHjd4obT1hRGwWQ=",
+      "signature": "m3K06K92rqvwOprcodFbUwrWo+uxSYSa6Km7xZI4XF+ax7vbG8js2XO0mwA0ECoKirss+hxEEhMu25cmY0JDCQ=="
+    },
+    {
+      "enrolled_at": "2026-09-04T16:20:00Z",
+      "pseudonym": "plumbline",
+      "public_key": "1lt2ice/XFRrZSWLV1JllmdrGe3qutWtTYECuEKPJpw=",
+      "signature": "DTHoJob8Ns4ySyq8Ldt595m3YREXndk/tlXu03oqg54Y5hK1Ot0iUcU9Eyz881bAYEvVdrcbyMmRz7TIBbeJDQ=="
+    }
+  ],
+  "count": 2,
+  "generated_from": "2026-09-05T12:00:00Z",
+  "head_commit": "d3330919433dfe0745066100078ccb9e51846241",
+  "note": "Every record of this kind, in full, as of head_commit. Derived from the log and never authoritative over it: where this and the log disagree, this is wrong."
+}

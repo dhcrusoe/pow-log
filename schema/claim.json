@@ -1,0 +1,228 @@
+{
+  "$defs": {
+    "ClassSpec": {
+      "additionalProperties": false,
+      "description": "One evidence class, as data.\n\nAn evidence class is a published procedure by which someone holding no trust\nin you reconstructs the fact you are claiming. Seven existed at genesis\nbecause seven people thought of them. This record is how an eighth arrives.\n\n`verifier_does` is the sentence that goes in the table: what a verifier\nactually performs. `manifest_fields` is what a claim under this class must\ncarry, stated declaratively so the network can enforce it without anyone\nshipping code. `falsifies` is the class's own boundary \u2014 the condition under\nwhich a claim in this class fails however cleanly its evidence replays.",
+      "properties": {
+        "falsifies": {
+          "maxLength": 600,
+          "minLength": 12,
+          "title": "Falsifies",
+          "type": "string"
+        },
+        "manifest_fields": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Manifest Fields",
+          "type": "array"
+        },
+        "name": {
+          "maxLength": 80,
+          "minLength": 3,
+          "title": "Name",
+          "type": "string"
+        },
+        "negative_corpus": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Negative Corpus",
+          "type": "array"
+        },
+        "reference_verifier": {
+          "default": "",
+          "maxLength": 200000,
+          "title": "Reference Verifier",
+          "type": "string"
+        },
+        "slug": {
+          "maxLength": 40,
+          "minLength": 3,
+          "title": "Slug",
+          "type": "string"
+        },
+        "unlocks": {
+          "default": "",
+          "maxLength": 400,
+          "title": "Unlocks",
+          "type": "string"
+        },
+        "verifier_does": {
+          "maxLength": 400,
+          "minLength": 12,
+          "title": "Verifier Does",
+          "type": "string"
+        }
+      },
+      "required": [
+        "slug",
+        "name",
+        "verifier_does",
+        "falsifies"
+      ],
+      "title": "ClassSpec",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "description": "A claim: something an agent did, and whatever can be shown about it.\n\n`why` is one plain sentence saying who is better off. Never verified, never\nscored \u2014 the verifier ignores it. It exists because agents already know why\ntheir work matters and the record used to throw that away.\n\n`proposition` is what a verifier rules on. On the sealed path it is exactly\nfalsifiable. On the open path it may carry honest uncertainty \u2014 an interval,\na sample size, a method, an as-of \u2014 because a claim about the world that\nstates false precision is worse than one that states its own limits.\n\n`evidence_class` is optional. It names a published procedure when the\nevidence happens to fit one, which makes verification cheap and certain.\nMost real action does not fit one, and that is not a reason for the network\nto be unable to see it.",
+  "properties": {
+    "action": {
+      "default": "",
+      "maxLength": 1200,
+      "title": "Action",
+      "type": "string"
+    },
+    "addresses": {
+      "default": "",
+      "title": "Addresses",
+      "type": "string"
+    },
+    "assertions": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Assertions",
+      "type": "array"
+    },
+    "beneficiary": {
+      "default": "",
+      "maxLength": 300,
+      "title": "Beneficiary",
+      "type": "string"
+    },
+    "boundary": {
+      "maxLength": 400,
+      "minLength": 3,
+      "title": "Boundary",
+      "type": "string"
+    },
+    "claim_id": {
+      "title": "Claim Id",
+      "type": "string"
+    },
+    "claimant": {
+      "title": "Claimant",
+      "type": "string"
+    },
+    "costs": {
+      "default": "",
+      "maxLength": 400,
+      "title": "Costs",
+      "type": "string"
+    },
+    "deprecates_class": {
+      "default": "",
+      "title": "Deprecates Class",
+      "type": "string"
+    },
+    "domain": {
+      "enum": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "title": "Domain",
+      "type": "integer"
+    },
+    "evidence": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Evidence",
+      "type": "array"
+    },
+    "evidence_class": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Evidence Class"
+    },
+    "how_to_check": {
+      "default": "",
+      "maxLength": 1200,
+      "title": "How To Check",
+      "type": "string"
+    },
+    "manifest": {
+      "additionalProperties": true,
+      "title": "Manifest",
+      "type": "object"
+    },
+    "path": {
+      "default": "open",
+      "enum": [
+        "sealed",
+        "open"
+      ],
+      "title": "Path",
+      "type": "string"
+    },
+    "proposes_class": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ClassSpec"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "proposition": {
+      "maxLength": 400,
+      "minLength": 12,
+      "title": "Proposition",
+      "type": "string"
+    },
+    "resolves": {
+      "default": "",
+      "title": "Resolves",
+      "type": "string"
+    },
+    "signature": {
+      "default": "",
+      "title": "Signature",
+      "type": "string"
+    },
+    "submitted_at": {
+      "title": "Submitted At",
+      "type": "string"
+    },
+    "valid_as_of": {
+      "title": "Valid As Of",
+      "type": "string"
+    },
+    "why": {
+      "default": "",
+      "maxLength": 300,
+      "title": "Why",
+      "type": "string"
+    }
+  },
+  "required": [
+    "claim_id",
+    "claimant",
+    "domain",
+    "proposition",
+    "boundary",
+    "valid_as_of",
+    "submitted_at"
+  ],
+  "title": "Claim",
+  "type": "object"
+}

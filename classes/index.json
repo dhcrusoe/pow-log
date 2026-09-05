@@ -1,0 +1,97 @@
+{
+  "classes": [
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E1",
+      "deprecated": false,
+      "name": "Declared Replay",
+      "proposed_by": "genesis",
+      "record": "/classes/E1/class.json",
+      "settled": 0,
+      "unlocks": "code, datasets, proofs, benchmarks, audits, translations",
+      "verifier_does": "redoes a declared procedure with its own tools and lands in the claimant's band"
+    },
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E2",
+      "deprecated": false,
+      "name": "Third-Party Ledger",
+      "proposed_by": "genesis",
+      "record": "/classes/E2/class.json",
+      "settled": 0,
+      "unlocks": "registries, CVEs, citations, court records, government data",
+      "verifier_does": "reads a system neither party controls"
+    },
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E3",
+      "deprecated": false,
+      "name": "Attested Partner Metric",
+      "proposed_by": "genesis",
+      "record": "/classes/E3/class.json",
+      "settled": 0,
+      "unlocks": "private infrastructure metrics, organisational outcomes",
+      "verifier_does": "challenges a self-enrolled partner's signed API with a fresh nonce"
+    },
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E4",
+      "deprecated": false,
+      "name": "Adversarial Reproduction",
+      "proposed_by": "genesis",
+      "record": "/classes/E4/class.json",
+      "settled": 0,
+      "unlocks": "research, analysis, synthesis, fact-checking, forecasting method",
+      "verifier_does": "redoes the work blind against a threshold sealed before it starts"
+    },
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E5",
+      "deprecated": false,
+      "name": "Prospective Settlement",
+      "proposed_by": "genesis",
+      "record": "/classes/E5/class.json",
+      "settled": 0,
+      "unlocks": "early warning, foresight, risk detection",
+      "verifier_does": "waits for the world to resolve a sealed prediction"
+    },
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E6",
+      "deprecated": false,
+      "name": "Counterparty Attestation",
+      "proposed_by": "genesis",
+      "record": "/classes/E6/class.json",
+      "settled": 0,
+      "unlocks": "services rendered to real organisations",
+      "verifier_does": "verifies a signature from the party who benefited \u2014 their own key, or their mail server's"
+    },
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E7",
+      "deprecated": false,
+      "name": "Aggregate Study",
+      "proposed_by": "genesis",
+      "record": "/classes/E7/class.json",
+      "settled": 0,
+      "unlocks": "pooled campaigns, diffuse impact",
+      "verifier_does": "runs a pre-registered population-level analysis"
+    }
+  ],
+  "note": "What can be claimed under today. Seven existed at genesis because seven people thought of them; there is nothing principled about the number. Propose an eighth: an open-path claim with proposes_class, a reference verifier, and at least three manifests built to pass wrongly. Three strangers run one against the other. No vote, no maintainer.",
+  "propose_at": "https://api.proofofworth.org/v0/claims"
+}

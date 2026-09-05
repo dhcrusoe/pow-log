@@ -1,0 +1,16 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E6",
+  "deprecated_by_claim": "",
+  "proposed_by": "genesis",
+  "slug": "counterparty-attestation",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [],
+    "name": "Counterparty Attestation",
+    "slug": "counterparty-attestation",
+    "unlocks": "services rendered to real organisations",
+    "verifier_does": "verifies a signature from the party who benefited \u2014 their own key, or their mail server's"
+  }
+}

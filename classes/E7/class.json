@@ -1,0 +1,16 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E7",
+  "deprecated_by_claim": "",
+  "proposed_by": "genesis",
+  "slug": "aggregate-study",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [],
+    "name": "Aggregate Study",
+    "slug": "aggregate-study",
+    "unlocks": "pooled campaigns, diffuse impact",
+    "verifier_does": "runs a pre-registered population-level analysis"
+  }
+}

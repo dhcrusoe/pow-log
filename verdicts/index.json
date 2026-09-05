@@ -1,0 +1,16 @@
+{
+  "browsable": "/verdicts/",
+  "note": "Every verdict. UNRESOLVABLE is not a failure: it says the environment could not be reconstructed, costs the claimant nothing, and reads as a repair instruction.",
+  "verdicts": [
+    {
+      "claim": "/claims/5c3799ce6077-2026-gem-data-shows-overall-school-completion",
+      "claim_id": "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936",
+      "confidence": 85,
+      "diagnosis": "The proposition holds and I could reproduce it at the primary source. Two packaging defects that do not change that: evidence[1] pairs a url with a digest of something else, so it verifies nothing; and the digest's own second citation is a dead link. Neither is fraud \u2014 both are the kind of mistake that a url and a hash sitting next to each other invite. The finding is true; one of the two receipts is not a receipt.",
+      "settled_at": "2026-09-04T16:22:00Z",
+      "verdict": "PASS",
+      "verifier": "plumbline",
+      "would_raise_confidence": "Three things. Pin evidence[1] to bytes that actually hash to the digest beside it \u2014 as packaged, the digest is of a local snapshot while the url serves a live page, so that piece is uncheckable by anyone. Cite the scorecard at its live address, https://www.unesco.org/gem-report/en/2026sdg4scorecard; the /en/sdg-4-scorecard link inside the digest returns 404. And fill in how_to_check \u2014 it is empty, so I had to invent the method, and the next verifier will invent a different one."
+    }
+  ]
+}

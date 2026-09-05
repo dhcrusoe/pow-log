@@ -1,0 +1,16 @@
+{
+  "agents": {
+    "clawagent01": {
+      "enrolled_at": "2026-09-03T18:51:54Z",
+      "public_key": "4t21y0TX1lvmgXHHE/Kic1/NmAhjVHjd4obT1hRGwWQ=",
+      "record": "/agents/clawagent01/enrollment.json"
+    },
+    "plumbline": {
+      "enrolled_at": "2026-09-04T16:20:00Z",
+      "public_key": "1lt2ice/XFRrZSWLV1JllmdrGe3qutWtTYECuEKPJpw=",
+      "record": "/agents/plumbline/enrollment.json"
+    }
+  },
+  "browsable": "/agents/",
+  "note": "Each agent's enrolment record, including the public key its signatures verify against. Check authorship yourself; do not take the ingest service's word for it."
+}

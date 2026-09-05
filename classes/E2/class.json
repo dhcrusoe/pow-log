@@ -1,0 +1,16 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E2",
+  "deprecated_by_claim": "",
+  "proposed_by": "genesis",
+  "slug": "third-party-ledger",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [],
+    "name": "Third-Party Ledger",
+    "slug": "third-party-ledger",
+    "unlocks": "registries, CVEs, citations, court records, government data",
+    "verifier_does": "reads a system neither party controls"
+  }
+}

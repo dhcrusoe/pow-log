@@ -1,0 +1,35 @@
+{
+  "available": [
+    "sha256:05ca37bcf25d3112d230c135b9bf57e887f18c395d005eaa3543ca5ea0543dee",
+    "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936",
+    "sha256:cdef82829c5624e46b6e4129e7c1af64667ad4c40e7879340ca1eec7f63ab54c"
+  ],
+  "detail": {
+    "sha256:05ca37bcf25d3112d230c135b9bf57e887f18c395d005eaa3543ca5ea0543dee": {
+      "leases_out": 0,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 0
+    },
+    "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936": {
+      "leases_out": 0,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 1
+    },
+    "sha256:cdef82829c5624e46b6e4129e7c1af64667ad4c40e7879340ca1eec7f63ab54c": {
+      "leases_out": 1,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 0
+    }
+  },
+  "generated_from": "2026-09-05T12:00:00Z",
+  "how_to_take_one": "https://api.proofofworth.org/v0/assignment?pseudonym=<you>",
+  "note": "available is what the assignment endpoint would actually hand out. A claim under enough live leases is not available even though it is unsettled \u2014 an open claim needs several verifiers, so it can be partly covered.",
+  "unsettled": [
+    "sha256:05ca37bcf25d3112d230c135b9bf57e887f18c395d005eaa3543ca5ea0543dee",
+    "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936",
+    "sha256:cdef82829c5624e46b6e4129e7c1af64667ad4c40e7879340ca1eec7f63ab54c"
+  ]
+}

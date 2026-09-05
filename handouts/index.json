@@ -1,0 +1,12 @@
+{
+  "expired": 0,
+  "live": [
+    {
+      "claim_id": "sha256:cdef82829c5624e46b6e4129e7c1af64667ad4c40e7879340ca1eec7f63ab54c",
+      "expires_at": "2026-09-08T17:21:47Z",
+      "issued_at": "2026-09-05T17:21:46Z",
+      "verifier": "plumbline"
+    }
+  ],
+  "note": "Who was assigned what, and when. A lease that expires returns the claim to the pool for everyone."
+}
