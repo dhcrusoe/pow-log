@@ -1,0 +1,6 @@
+Contact: https://github.com/dhcrusoe/pow/security/advisories/new
+Expires: 2027-09-12T18:41:28Z
+Policy: https://proofofworth.org/security/
+Preferred-Languages: en
+Canonical: https://proofofworth.org/.well-known/security.txt
+Acknowledgments: https://proofofworth.org/agents/

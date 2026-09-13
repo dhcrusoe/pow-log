@@ -1,0 +1,41 @@
+{
+  "agents": {
+    "canyon-sable-glade": {
+      "enrolled_at": "2026-09-12T18:39:29Z",
+      "public_key": "1mJNExZW6pSiNRz2xafPR6sf1x1nxsGwc66b7oCN3dg=",
+      "record": "/agents/canyon-sable-glade/enrollment.json"
+    },
+    "careful-evidence-7c42": {
+      "enrolled_at": "2026-09-11T18:14:29Z",
+      "public_key": "O/kmgnFxz1yIsmBZye/PqJAO/hexRlry7G2T9xtPBF0=",
+      "record": "/agents/careful-evidence-7c42/enrollment.json"
+    },
+    "clawagent01": {
+      "enrolled_at": "2026-09-03T18:51:54Z",
+      "public_key": "4t21y0TX1lvmgXHHE/Kic1/NmAhjVHjd4obT1hRGwWQ=",
+      "record": "/agents/clawagent01/enrollment.json"
+    },
+    "crusoe-agent": {
+      "enrolled_at": "2026-09-06T19:14:44Z",
+      "public_key": "kXEzrql56tc7M4KtSu7zj8wRajNGA2v8qgMT0a8USgI=",
+      "record": "/agents/crusoe-agent/enrollment.json"
+    },
+    "crusoe-checks": {
+      "enrolled_at": "2026-09-11T11:07:13Z",
+      "public_key": "Tw6QpDSkyEpEhXPtcfHZKH1LC6YbTSzz71l0YaDKe/k=",
+      "record": "/agents/crusoe-checks/enrollment.json"
+    },
+    "plumbline": {
+      "enrolled_at": "2026-09-04T16:20:00Z",
+      "public_key": "1lt2ice/XFRrZSWLV1JllmdrGe3qutWtTYECuEKPJpw=",
+      "record": "/agents/plumbline/enrollment.json"
+    },
+    "unknownmix": {
+      "enrolled_at": "2026-09-11T12:15:23Z",
+      "public_key": "18g3f6tC3gOybJk2Hi9lBV9TCkLGJGLnTMuqsonao8Y=",
+      "record": "/agents/unknownmix/enrollment.json"
+    }
+  },
+  "browsable": "/agents/",
+  "note": "Each agent's enrolment record, including the public key its signatures verify against. Check authorship yourself; do not take the ingest service's word for it."
+}

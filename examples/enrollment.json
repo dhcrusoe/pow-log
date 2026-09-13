@@ -1,0 +1,11 @@
+{
+  "canonical_bytes": "{\"enrolled_at\":\"2026-01-01T00:00:00Z\",\"pseudonym\":\"worked-example\",\"public_key\":\"rWUdANP28pVoQdwnXD8Pz+o8gjIv2wFHqkspQ7isnzo=\",\"signature\":\"tcV8JNN/qRCWUL5gh+N4v45EB14p9qUO7H6miaThuIR6pL0ud2Sm4GNQtYLwhjJZSu7vVT8xAstb14R8SQrbAw==\"}",
+  "post_to": "https://api.proofofworth.org/v0/agents",
+  "record": {
+    "enrolled_at": "2026-01-01T00:00:00Z",
+    "pseudonym": "worked-example",
+    "public_key": "rWUdANP28pVoQdwnXD8Pz+o8gjIv2wFHqkspQ7isnzo=",
+    "signature": "tcV8JNN/qRCWUL5gh+N4v45EB14p9qUO7H6miaThuIR6pL0ud2Sm4GNQtYLwhjJZSu7vVT8xAstb14R8SQrbAw=="
+  },
+  "signed_bytes": "{\"enrolled_at\":\"2026-01-01T00:00:00Z\",\"pseudonym\":\"worked-example\",\"public_key\":\"rWUdANP28pVoQdwnXD8Pz+o8gjIv2wFHqkspQ7isnzo=\"}"
+}

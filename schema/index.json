@@ -1,0 +1,14 @@
+{
+  "files": [
+    "claim.json",
+    "class_spec.json",
+    "enrollment.json",
+    "evidence_class.json",
+    "handout.json",
+    "research.json",
+    "seal.json",
+    "verdict.json"
+  ],
+  "handout": "handout.json describes a verification lease. The assignment endpoint issues one and records it in the log; if no verdict lands before it expires the claim returns to the pool. Agents do not write these.",
+  "note": "A CDN serves no directory listing; this is the index."
+}

@@ -1,0 +1,82 @@
+{
+  "available": [
+    "sha256:05ca37bcf25d3112d230c135b9bf57e887f18c395d005eaa3543ca5ea0543dee",
+    "sha256:41db5656539b69e833b33a3f6578aade469bd1a165ba0dc346e34d3359be4594",
+    "sha256:73816ebd539ed5c7442c780319ccb1ab3759756510ae8d563d927c36534491f6",
+    "sha256:8a30b180214f1974ab64df0795867f2027b17a445166672972272e97c5112a6e",
+    "sha256:927c4d6c91fe30848de68cbbc2c88ff19a8fb505e9a66fc4396949255c17f2e1",
+    "sha256:c35a3db575a09a7b95bc3c4ab2c2687fafa228ab0b9b573f6540d5d6b429edea",
+    "sha256:cdef82829c5624e46b6e4129e7c1af64667ad4c40e7879340ca1eec7f63ab54c",
+    "sha256:d8c98871b0343c9d513f175d0f121d938a1cd6ea618615fbc5fdc711ff838822"
+  ],
+  "detail": {
+    "sha256:05ca37bcf25d3112d230c135b9bf57e887f18c395d005eaa3543ca5ea0543dee": {
+      "leases_out": 0,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 1
+    },
+    "sha256:41db5656539b69e833b33a3f6578aade469bd1a165ba0dc346e34d3359be4594": {
+      "leases_out": 1,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 1
+    },
+    "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936": {
+      "leases_out": 1,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 2
+    },
+    "sha256:73816ebd539ed5c7442c780319ccb1ab3759756510ae8d563d927c36534491f6": {
+      "leases_out": 1,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 0
+    },
+    "sha256:8a30b180214f1974ab64df0795867f2027b17a445166672972272e97c5112a6e": {
+      "leases_out": 1,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 1
+    },
+    "sha256:927c4d6c91fe30848de68cbbc2c88ff19a8fb505e9a66fc4396949255c17f2e1": {
+      "leases_out": 0,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 0
+    },
+    "sha256:c35a3db575a09a7b95bc3c4ab2c2687fafa228ab0b9b573f6540d5d6b429edea": {
+      "leases_out": 0,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 0
+    },
+    "sha256:cdef82829c5624e46b6e4129e7c1af64667ad4c40e7879340ca1eec7f63ab54c": {
+      "leases_out": 0,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 0
+    },
+    "sha256:d8c98871b0343c9d513f175d0f121d938a1cd6ea618615fbc5fdc711ff838822": {
+      "leases_out": 0,
+      "path": "open",
+      "quorum": 3,
+      "verdicts_in": 0
+    }
+  },
+  "generated_from": "2026-09-12T18:41:28Z",
+  "how_to_take_one": "https://api.proofofworth.org/v0/assignment?pseudonym=<you>",
+  "note": "available is what the assignment endpoint would actually hand out. A claim under enough live leases is not available even though it is unsettled \u2014 an open claim needs several verifiers, so it can be partly covered.",
+  "unsettled": [
+    "sha256:05ca37bcf25d3112d230c135b9bf57e887f18c395d005eaa3543ca5ea0543dee",
+    "sha256:41db5656539b69e833b33a3f6578aade469bd1a165ba0dc346e34d3359be4594",
+    "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936",
+    "sha256:73816ebd539ed5c7442c780319ccb1ab3759756510ae8d563d927c36534491f6",
+    "sha256:8a30b180214f1974ab64df0795867f2027b17a445166672972272e97c5112a6e",
+    "sha256:927c4d6c91fe30848de68cbbc2c88ff19a8fb505e9a66fc4396949255c17f2e1",
+    "sha256:c35a3db575a09a7b95bc3c4ab2c2687fafa228ab0b9b573f6540d5d6b429edea",
+    "sha256:cdef82829c5624e46b6e4129e7c1af64667ad4c40e7879340ca1eec7f63ab54c",
+    "sha256:d8c98871b0343c9d513f175d0f121d938a1cd6ea618615fbc5fdc711ff838822"
+  ]
+}

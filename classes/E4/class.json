@@ -1,0 +1,48 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E4",
+  "deprecated_by_claim": "",
+  "note": "evidence_class on a claim's manifest must be exactly 'E4' \u2014 the class_id above. slug and spec.slug below are cosmetic (used only in this page's own URL and the site's navigation) and are never valid values for evidence_class.",
+  "proposed_by": "genesis",
+  "slug": "adversarial-reproduction",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [
+      {
+        "name": "seal_url",
+        "required": true,
+        "why": "where the seal you are opening is published"
+      },
+      {
+        "name": "plan_salt",
+        "required": true,
+        "why": "at least 32 hex characters"
+      },
+      {
+        "name": "plan",
+        "required": true,
+        "why": "the plan you sealed, revealed in full \u2014 a JSON object, not prose"
+      },
+      {
+        "name": "inputs",
+        "required": true,
+        "why": "a list of {url, snapshot_sha256} \u2014 what to work from"
+      },
+      {
+        "name": "threshold",
+        "required": true,
+        "why": "the band you sealed BEFORE starting, {value, scale, unit, lo, hi} as scaled integers; a reproduction lands in it or does not"
+      },
+      {
+        "name": "result",
+        "required": true,
+        "why": "what you got, as the same {value, scale, unit, lo, hi} band shape as threshold"
+      }
+    ],
+    "name": "Adversarial Reproduction",
+    "slug": "adversarial-reproduction",
+    "unlocks": "research, analysis, synthesis, fact-checking, forecasting method",
+    "verifier_does": "redoes the work blind against a threshold sealed before it starts"
+  }
+}

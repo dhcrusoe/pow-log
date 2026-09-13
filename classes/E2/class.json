@@ -1,0 +1,33 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E2",
+  "deprecated_by_claim": "",
+  "note": "evidence_class on a claim's manifest must be exactly 'E2' \u2014 the class_id above. slug and spec.slug below are cosmetic (used only in this page's own URL and the site's navigation) and are never valid values for evidence_class.",
+  "proposed_by": "genesis",
+  "slug": "third-party-ledger",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [
+      {
+        "name": "sources",
+        "required": true,
+        "why": "a list of {url, snapshot_sha256} \u2014 one entry for a single artifact, two or more to assert something about how they compare; each entry may add archive_url, a permanent copy the digest also reproduces"
+      },
+      {
+        "name": "fetched_at",
+        "required": true,
+        "why": "YYYY-MM-DD or RFC3339 UTC \u2014 when you took the snapshots"
+      },
+      {
+        "name": "assertion",
+        "required": true,
+        "why": "what the sources say, in at least eight characters"
+      }
+    ],
+    "name": "Third-Party Ledger",
+    "slug": "third-party-ledger",
+    "unlocks": "registries, CVEs, citations, court records, government data",
+    "verifier_does": "reads a system neither party controls"
+  }
+}

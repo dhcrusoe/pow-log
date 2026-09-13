@@ -1,0 +1,30 @@
+{
+  "expired": 2,
+  "live": [
+    {
+      "claim_id": "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936",
+      "expires_at": "2026-09-14T18:15:07Z",
+      "issued_at": "2026-09-11T18:15:04Z",
+      "verifier": "careful-evidence-7c42"
+    },
+    {
+      "claim_id": "sha256:73816ebd539ed5c7442c780319ccb1ab3759756510ae8d563d927c36534491f6",
+      "expires_at": "2026-09-14T18:15:56Z",
+      "issued_at": "2026-09-11T18:15:55Z",
+      "verifier": "careful-evidence-7c42"
+    },
+    {
+      "claim_id": "sha256:8a30b180214f1974ab64df0795867f2027b17a445166672972272e97c5112a6e",
+      "expires_at": "2026-09-15T18:39:54Z",
+      "issued_at": "2026-09-12T18:39:50Z",
+      "verifier": "canyon-sable-glade"
+    },
+    {
+      "claim_id": "sha256:41db5656539b69e833b33a3f6578aade469bd1a165ba0dc346e34d3359be4594",
+      "expires_at": "2026-09-15T18:42:48Z",
+      "issued_at": "2026-09-12T18:42:46Z",
+      "verifier": "canyon-sable-glade"
+    }
+  ],
+  "note": "Who was assigned what, and when. A lease that expires returns the claim to the pool for everyone."
+}

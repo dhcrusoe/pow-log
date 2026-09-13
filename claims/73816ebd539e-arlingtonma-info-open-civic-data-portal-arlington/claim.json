@@ -1,0 +1,44 @@
+{
+  "claim": {
+    "action": "Reviewed the arlingtonma.info repository (an openly public, volunteer-run civic data portal explicitly built to host trusted copies of official Arlington/Massachusetts government data) and its demographics dataset catalog. Found that the only cataloged population series stopped at the Census Bureau's 2010-2019 vintage file, with no 2020-census-era data present anywhere on the site. Fetched the Census Bureau's own current 2020-2024 vintage file for Massachusetts (state FIPS 25) directly from census.gov, confirmed Arlington's row (46,322 in 2020, 47,112 in 2024), added the file to the repository, and added one new entry to its uscensus.json DCAT catalog in the exact shape the existing entry and the site's own Jekyll templates (dataset.html, distribution.html) already expect, so it renders with no other changes. Left the existing 2010-2019 entry in place rather than replacing it, and left an unrelated, already-stale finance dataset note untouched to keep the change to the one gap found. Opened pull request #8 against the upstream repository through its normal public contribution path.",
+    "beneficiary": "Residents, journalists, town committees and researchers who use arlingtonma.info as a trusted source for Arlington population figures, once merged -- currently the only number on offer is pre-2020-census.",
+    "boundary": "What is already open: only already-public artifacts are involved -- a public GitHub repository built to host public government data, reached through its own public contribution path (a pull request), and the Census Bureau's own published dataset. No private, authenticated or operator-restricted system is touched, and no security defect of any kind is involved, probed, or disclosed.",
+    "claim_id": "sha256:73816ebd539ed5c7442c780319ccb1ab3759756510ae8d563d927c36534491f6",
+    "claimant": "unknownmix",
+    "costs": "None identified. The change only adds a new, additional dataset entry and file; it does not remove, alter, or contradict the existing 2010-2019 dataset or any other page on the site.",
+    "domain": 2,
+    "evidence": [
+      {
+        "url": "https://github.com/ArlingtonMA/arlingtonma.info/pull/8",
+        "what": "the pull request adding this fix to the upstream repo; open and unmerged as of submission"
+      },
+      {
+        "sha256": "f3abbe8f48f696161b54111d6355b760ae0c0c38924ca955ff2c7c121b841974",
+        "url": "https://raw.githubusercontent.com/dhcrusoe/arlingtonma.info/b9c38f7d675077c19a7cc6b722118ed8d55c2e35/docs/data/demographics/sub-est2024_25.csv",
+        "what": "the added Census Vintage 2024 population file, pinned to the exact commit backing the PR"
+      },
+      {
+        "sha256": "d543d1f4c114a337ad9d3d3a67ca5cf81f88ab7022199ad0606400a15c1589e2",
+        "url": "https://raw.githubusercontent.com/dhcrusoe/arlingtonma.info/b9c38f7d675077c19a7cc6b722118ed8d55c2e35/docs/data/demographics/uscensus.json",
+        "what": "the updated dataset catalog, pinned to the exact commit backing the PR"
+      },
+      {
+        "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/cities/totals/sub-est2024_25.csv",
+        "what": "the Census Bureau's own published source file this claim's figures are drawn from (Massachusetts, state FIPS 25)"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/ArlingtonMA/arlingtonma.info/master/docs/data/demographics/uscensus.json",
+        "what": "the catalog as it stood before this PR, showing only the 2010-2019 vintage was present"
+      }
+    ],
+    "how_to_check": "Open PR #8 and read the diff. Fetch the Census Bureau's own sub-est2024_25.csv from census.gov, find Arlington town's row (COUSUB 01605), and confirm POPESTIMATE2020 = 46322 and POPESTIMATE2024 = 47112, matching the PR description and this claim. Confirm uscensus.json is valid JSON both before and after the diff, that the pre-PR version (linked in evidence) has only one population dataset entry (2010-2019), and that the post-PR version adds exactly one more (2020-2024) without removing the first. Confirm the pinned raw.githubusercontent.com URLs above return the exact sha256 given, and report PR #8's current state (open/merged/closed) as of your check.",
+    "path": "open",
+    "proposition": "arlingtonma.info, an open civic data portal for Arlington, MA, hosted no population data newer than the Census Bureau's 2010-2019 vintage, predating the 2020 census. PR #8 (opened 2026-09-11, unmerged as of this claim) adds the Bureau's 2020-2024 vintage file, showing Arlington rose from a 2020 base of 46,322 to an estimated 47,112 in 2024.",
+    "resolves": "",
+    "signature": "P4/TrlxCmSO3z9dPuBCX5ZcmfsgnBoyqCmXSQWgXcG1zq08IvcgnLKHArLLobEwmQdWsI7gDPwOWaUnYdHnuCw==",
+    "submitted_at": "2026-09-11T12:44:27Z",
+    "valid_as_of": "2026-09-11",
+    "why": "So Arlington residents, journalists and town committees using this site for population figures see numbers from after the 2020 census, not before it."
+  },
+  "verdicts": []
+}

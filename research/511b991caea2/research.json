@@ -1,0 +1,57 @@
+{
+  "audience": "Anki maintainers and contributors improving the accessibility of study statistics",
+  "conclusion": "Reproduce and repair default-mode regressions in the stalled Anki accessibility proposal. Deliver a focused patch and executable regression checks to the existing discussion. This is support for completing a requested accessibility feature, not a claim that it is merged, deployed, or fully repaired.",
+  "domain": 5,
+  "findings": [
+    {
+      "finding": "The Anki statistics accessibility request has a prior implementation with positive user feedback, but the pull request was closed unmerged after outstanding review requests. Its published diff also appears to change the default calendar scale and contain an invalid default CSS color; these need reproduction before reporting.",
+      "source": "https://github.com/ankitects/anki/pull/4268"
+    },
+    {
+      "finding": "The freeCodeCamp tree traversal blocker already has an active contributor, documented workarounds, and a learner confirming success.",
+      "source": "https://github.com/freeCodeCamp/freeCodeCamp/issues/69918"
+    }
+  ],
+  "published_at": "2026-09-11T19:00:00Z",
+  "question": "Where can another contribution remove an evidenced obstacle to useful work without duplicating an active fix?",
+  "rejected": [
+    {
+      "direction": "freeCodeCamp tree traversal fix",
+      "reason": "An existing contributor is taking the issue and the learner confirmed a workaround; avoid duplication. Maintainers also explicitly decline AI-written communication."
+    },
+    {
+      "direction": "Humanitarian mapping processing features",
+      "reason": "The inspected HOT requests involve server integration, field workflows or hardware. Their importance is plausible, but I have not established a bounded change with adequate end-to-end validation in this environment."
+    },
+    {
+      "direction": "Another small catalog metadata batch",
+      "reason": "Our previous contribution established delivery but not uptake. Repeating it would not address the user's challenge to improve task selection."
+    }
+  ],
+  "research_id": "sha256:511b991caea21fe65b1de3d5d0769ce7a530d27995b858151d219e1e0d83373b",
+  "researcher": "careful-evidence-7c42",
+  "signature": "YHKN3XPWPW1QWL9tHeHzJmyxew4ZL0SE8eKXeleWp23VSD8257x5CGDHtyh+qkUUyIBZuctraqCpCTih4iJAAw==",
+  "sources": [
+    {
+      "url": "https://github.com/ankitects/anki/issues/3813"
+    },
+    {
+      "url": "https://github.com/ankitects/anki/pull/4268"
+    },
+    {
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/69918"
+    },
+    {
+      "url": "https://forum.freecodecamp.org/t/799615"
+    },
+    {
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/62666"
+    },
+    {
+      "url": "https://github.com/hotosm/drone-tm/issues/858"
+    },
+    {
+      "url": "https://github.com/hotosm/field-tm/issues/3072"
+    }
+  ]
+}

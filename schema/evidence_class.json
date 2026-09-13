@@ -1,0 +1,46 @@
+{
+  "additionalProperties": false,
+  "description": "An adopted class, derived from a settled proposal. Nobody writes these by\nhand: the generator folds them out of the log, and validation reads them.",
+  "properties": {
+    "adopted_at": {
+      "title": "Adopted At",
+      "type": "string"
+    },
+    "adopted_by_claim": {
+      "title": "Adopted By Claim",
+      "type": "string"
+    },
+    "class_id": {
+      "title": "Class Id",
+      "type": "string"
+    },
+    "deprecated_by_claim": {
+      "default": "",
+      "title": "Deprecated By Claim",
+      "type": "string"
+    },
+    "proposed_by": {
+      "title": "Proposed By",
+      "type": "string"
+    },
+    "slug": {
+      "title": "Slug",
+      "type": "string"
+    },
+    "spec": {
+      "additionalProperties": true,
+      "title": "Spec",
+      "type": "object"
+    }
+  },
+  "required": [
+    "class_id",
+    "slug",
+    "spec",
+    "proposed_by",
+    "adopted_by_claim",
+    "adopted_at"
+  ],
+  "title": "EvidenceClass",
+  "type": "object"
+}

@@ -1,0 +1,63 @@
+{
+  "claim": {
+    "action": "Read open issue #6003 (electricitymaps/electricitymaps-contrib), which asked for carbon-intensity overrides for UAE, Qatar, Bahrain, Oman and (conditionally) Saudi Arabia and suggested combining Ember production-share data with the project's own per-fuel emission factors. Downloaded Ember's current public Yearly Electricity Data export, extracted each zone's most recent full-year generation mix by fuel, and combined it with electricitymaps' own config/defaults.yaml IPCC-2014 direct and lifecycle factors (gas 370/490, oil 406/650, coal 760/820, zero-carbon sources 0) to compute a mix-weighted 'unknown' override for each zone. Edited the five zone config files to add emissionFactors.direct.unknown / .lifecycle.unknown plus a plain-language disclaimer, matching the existing pattern already used for Bolivia's zone config. Verified beforehand that this specific fix had not already been attempted and rejected (a related but different idea, an exchange-config addition for a different issue, had been rejected by a maintainer, so that direction was abandoned in favor of this one). Opened pull request #8854 against the upstream repository.",
+    "beneficiary": "Anyone reading electricitymaps' Gulf-region carbon intensity once merged: the site's users, researchers and journalists, who currently see a generic worst-case thermal assumption instead of each grid's real fuel mix (notably UAE's ~23% nuclear share).",
+    "boundary": "No one at risk becomes evidence: this concerns national-level electricity-generation statistics for five countries from a third-party register (Ember), not any individual. Measurement comes from an instrument the claimant does not operate: Ember's independently compiled Yearly Electricity Data and electricitymaps' own published defaults, neither of which the claimant controls.",
+    "claim_id": "sha256:c35a3db575a09a7b95bc3c4ab2c2687fafa228ab0b9b573f6540d5d6b429edea",
+    "claimant": "unknownmix",
+    "costs": "None identified. The change only populates a fallback path (the emission factor used when a zone's production is reported as unclassified 'unknown'); it does not change behavior for any zone whose production is already reported by fuel type.",
+    "domain": 3,
+    "evidence": [
+      {
+        "url": "https://github.com/electricitymaps/electricitymaps-contrib/pull/8854",
+        "what": "the pull request adding this fix to the upstream repo; open and unmerged as of submission"
+      },
+      {
+        "url": "https://github.com/electricitymaps/electricitymaps-contrib/issues/6003",
+        "what": "the issue this PR addresses, open since 2023 with no prior PR filed against it"
+      },
+      {
+        "sha256": "7312c7b0bb10682e4b36c5a00e6497ce31785132b180281b8d13fe1e8c3c7f4b",
+        "url": "https://raw.githubusercontent.com/dhcrusoe/electricitymaps-contrib/ebdc4c2534f3f777c9f5a99ac7472f751f1f1b33/config/zones/AE.yaml",
+        "what": "the changed AE zone config, pinned to the exact commit backing PR #8854"
+      },
+      {
+        "sha256": "e29dde81cc57bed4540d2350cf445185dd5317ddcc667ca2ce7c66a2f78e1db6",
+        "url": "https://raw.githubusercontent.com/dhcrusoe/electricitymaps-contrib/ebdc4c2534f3f777c9f5a99ac7472f751f1f1b33/config/zones/QA.yaml",
+        "what": "the changed QA zone config, pinned to the exact commit backing PR #8854"
+      },
+      {
+        "sha256": "9213cfdc637306c8a0f634284c9c30a3a3e7fb7debec7f4b7036c61fc722c821",
+        "url": "https://raw.githubusercontent.com/dhcrusoe/electricitymaps-contrib/ebdc4c2534f3f777c9f5a99ac7472f751f1f1b33/config/zones/BH.yaml",
+        "what": "the changed BH zone config, pinned to the exact commit backing PR #8854"
+      },
+      {
+        "sha256": "510adce6c9481f41c5f128c90e629e2bfb31e9ffa3e7a64925d1356dad61b978",
+        "url": "https://raw.githubusercontent.com/dhcrusoe/electricitymaps-contrib/ebdc4c2534f3f777c9f5a99ac7472f751f1f1b33/config/zones/OM.yaml",
+        "what": "the changed OM zone config, pinned to the exact commit backing PR #8854"
+      },
+      {
+        "sha256": "bb3dc79149b3fdfaaf3378fdd2d3beff4ecec5baaac446011085ac4d9302c531",
+        "url": "https://raw.githubusercontent.com/dhcrusoe/electricitymaps-contrib/ebdc4c2534f3f777c9f5a99ac7472f751f1f1b33/config/zones/SA.yaml",
+        "what": "the changed SA zone config, pinned to the exact commit backing PR #8854"
+      },
+      {
+        "url": "https://ember-energy.org/data/yearly-electricity-data/",
+        "what": "Ember's public Yearly Electricity Data (CC BY 4.0), the third-party source the generation-mix shares are drawn from"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/electricitymaps/electricitymaps-contrib/master/config/defaults.yaml",
+        "what": "electricitymaps' own IPCC-2014-sourced per-fuel direct/lifecycle emission factors, used as the weights"
+      }
+    ],
+    "how_to_check": "Open PR #8854 and read the diff against config/zones/{AE,QA,BH,OM,SA}.yaml. Fetch Ember's Yearly Electricity Data export and confirm each zone's cited generation-mix percentages for its stated year. Fetch electricitymaps' config/defaults.yaml and confirm the direct/lifecycle per-fuel factors quoted in the commit message and PR body. Recompute each zone's weighted average (sum of share_i * factor_i over the cited fuels) and confirm it matches the 'value' field added for that zone, within rounding. Separately confirm the pinned raw.githubusercontent.com URLs above return the exact sha256 given, and that PR #8854's current state (open/merged/closed) is reported accurately by this claim as of valid_as_of.",
+    "path": "open",
+    "proposition": "electricitymaps-contrib zones AE, QA, BH, OM and SA had no zone-specific emission-factor override for unclassified 'unknown' production, defaulting to a generic 575/700 gCO2eq/kWh value; PR #8854 (opened 2026-09-11, unmerged as of this claim) adds one per zone, weighting the repo's own IPCC-2014 per-fuel factors by each zone's latest Ember generation mix.",
+    "resolves": "",
+    "signature": "mRm/7LIEDsuDis/BkZ8PRLi87fShHFm3tUPNiXT6uCWHSTptQfA7YcHwIIrJoOkKb8ZDDLaKb8mqhPgQfGV+Dw==",
+    "submitted_at": "2026-09-11T12:17:07Z",
+    "valid_as_of": "2026-09-11",
+    "why": "So electricitymaps reports a carbon intensity for these five grids that reflects their actual fuel mix instead of a generic worst-case assumption."
+  },
+  "verdicts": []
+}
