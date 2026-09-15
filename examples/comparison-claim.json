@@ -1,0 +1,38 @@
+{
+  "canonical_bytes": "{\"boundary\":\"no named body: both documents are population-level guidance\",\"claim_id\":\"sha256:04495ec524e2cb56656fd5fb2cbaa008c69c738a8eab456d24203ebb1af7800d\",\"claimant\":\"worked-example\",\"costs\":\"Says the two disagree. Does not say which is right.\",\"domain\":5,\"evidence_class\":\"E2\",\"manifest\":{\"assertion\":\"A recommends X for the presentation where B recommends not-X\",\"fetched_at\":\"2026-01-01\",\"sources\":[{\"label\":\"guideline A\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/guideline-a.json\"},{\"label\":\"guideline B\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/guideline-b.json\"}]},\"path\":\"sealed\",\"proposition\":\"Guideline A and guideline B, both current, give contradictory recommendations for the same presentation.\",\"resolves\":\"\",\"signature\":\"H7s9obu47i0n584tf+hWWIVbCeTX476RHL8DD9twiX5mUTESAy/qtGTB9rIZ8LuctOri3ApU03+3z0PqTIpMDA==\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Clinicians are following whichever guideline their hospital happened to adopt, and the two say opposite things.\"}",
+  "claim_id_bytes": "{\"boundary\":\"no named body: both documents are population-level guidance\",\"claimant\":\"worked-example\",\"costs\":\"Says the two disagree. Does not say which is right.\",\"domain\":5,\"evidence_class\":\"E2\",\"manifest\":{\"assertion\":\"A recommends X for the presentation where B recommends not-X\",\"fetched_at\":\"2026-01-01\",\"sources\":[{\"label\":\"guideline A\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/guideline-a.json\"},{\"label\":\"guideline B\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/guideline-b.json\"}]},\"path\":\"sealed\",\"proposition\":\"Guideline A and guideline B, both current, give contradictory recommendations for the same presentation.\",\"resolves\":\"\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Clinicians are following whichever guideline their hospital happened to adopt, and the two say opposite things.\"}",
+  "post_to": "https://api.proofofworth.org/v0/claims",
+  "record": {
+    "boundary": "no named body: both documents are population-level guidance",
+    "claim_id": "sha256:04495ec524e2cb56656fd5fb2cbaa008c69c738a8eab456d24203ebb1af7800d",
+    "claimant": "worked-example",
+    "costs": "Says the two disagree. Does not say which is right.",
+    "domain": 5,
+    "evidence_class": "E2",
+    "manifest": {
+      "assertion": "A recommends X for the presentation where B recommends not-X",
+      "fetched_at": "2026-01-01",
+      "sources": [
+        {
+          "label": "guideline A",
+          "snapshot_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "url": "https://example.org/guideline-a.json"
+        },
+        {
+          "label": "guideline B",
+          "snapshot_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "url": "https://example.org/guideline-b.json"
+        }
+      ]
+    },
+    "path": "sealed",
+    "proposition": "Guideline A and guideline B, both current, give contradictory recommendations for the same presentation.",
+    "resolves": "",
+    "signature": "H7s9obu47i0n584tf+hWWIVbCeTX476RHL8DD9twiX5mUTESAy/qtGTB9rIZ8LuctOri3ApU03+3z0PqTIpMDA==",
+    "submitted_at": "2026-01-01T00:00:00Z",
+    "valid_as_of": "2026-01-01",
+    "why": "Clinicians are following whichever guideline their hospital happened to adopt, and the two say opposite things."
+  },
+  "signed_bytes": "{\"boundary\":\"no named body: both documents are population-level guidance\",\"claim_id\":\"sha256:04495ec524e2cb56656fd5fb2cbaa008c69c738a8eab456d24203ebb1af7800d\",\"claimant\":\"worked-example\",\"costs\":\"Says the two disagree. Does not say which is right.\",\"domain\":5,\"evidence_class\":\"E2\",\"manifest\":{\"assertion\":\"A recommends X for the presentation where B recommends not-X\",\"fetched_at\":\"2026-01-01\",\"sources\":[{\"label\":\"guideline A\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/guideline-a.json\"},{\"label\":\"guideline B\",\"snapshot_sha256\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"url\":\"https://example.org/guideline-b.json\"}]},\"path\":\"sealed\",\"proposition\":\"Guideline A and guideline B, both current, give contradictory recommendations for the same presentation.\",\"resolves\":\"\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Clinicians are following whichever guideline their hospital happened to adopt, and the two say opposite things.\"}",
+  "what_this_shows": "How canonical bytes and signing work when a manifest's 'sources' list holds more than one entry \u2014 the shape it takes for a comparison instead of a single artifact."
+}

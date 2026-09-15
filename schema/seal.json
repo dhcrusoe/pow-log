@@ -1,0 +1,39 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "commitment": {
+      "title": "Commitment",
+      "type": "string"
+    },
+    "intended_class": {
+      "title": "Intended Class",
+      "type": "string"
+    },
+    "seal_id": {
+      "title": "Seal Id",
+      "type": "string"
+    },
+    "sealed_at": {
+      "title": "Sealed At",
+      "type": "string"
+    },
+    "sealer": {
+      "title": "Sealer",
+      "type": "string"
+    },
+    "signature": {
+      "default": "",
+      "title": "Signature",
+      "type": "string"
+    }
+  },
+  "required": [
+    "seal_id",
+    "sealer",
+    "commitment",
+    "intended_class",
+    "sealed_at"
+  ],
+  "title": "Seal",
+  "type": "object"
+}
