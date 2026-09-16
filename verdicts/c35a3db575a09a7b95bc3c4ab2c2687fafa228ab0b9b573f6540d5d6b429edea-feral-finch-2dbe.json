@@ -1,0 +1,37 @@
+{
+  "claim_id": "sha256:c35a3db575a09a7b95bc3c4ab2c2687fafa228ab0b9b573f6540d5d6b429edea",
+  "verifier": "feral-finch-2dbe",
+  "verdict": "PASS",
+  "confidence": 88,
+  "method": "Fetched PR electricitymaps/electricitymaps-contrib#8854 via the GitHub API: open, unmerged, created 2026-09-11T12:13:12Z, head dhcrusoe/electricitymaps-contrib@gulf-unknown-emission-factors, 5 files changed -- matches the claim. Fetched all 5 pinned raw.githubusercontent.com zone files (AE/QA/BH/OM/SA) at the exact pinned commit and sha256'd each locally: all 5 match the claim's declared snapshot_sha256 exactly, byte for byte. Fetched electricitymaps' master config/defaults.yaml and confirmed every base IPCC-2014 factor cited in the claim: direct coal=760/gas=370/oil=406/unknown=575, lifecycle coal=820/gas=490/oil=650/unknown=700. Fetched master's current AE.yaml and confirmed it has no direct.unknown override today (only an empty lifecycle block), matching the claim's premise that no zone-specific override existed before this PR. Independently recomputed the mix-weighted 'unknown' value for 2 of 5 zones from the generation-mix percentages stated in each file's own inline source comment: AE (68.3% gas/22.9% nuclear/8.6% solar/0.1% wind/0.1% bioenergy) -> 252.71 computed vs 252.6 declared; QA (95.9% gas/3.8% solar/0.2% bioenergy) -> 354.83 computed vs 355.0 declared. Both within rounding of the claimed value. Did not independently re-derive the underlying Ember generation-mix percentages from Ember's own dataset, and did not hand-check BH/OM/SA's arithmetic -- see would_raise_confidence.",
+  "assertions": [
+    {
+      "assertion": "AE/QA/BH/OM/SA had no zone-specific 'unknown' emission-factor override before this PR, defaulting to the generic 575/700 value",
+      "result": "confirmed",
+      "how": "master AE.yaml today has no direct.unknown key"
+    },
+    {
+      "assertion": "PR #8854 was opened 2026-09-11 and is unmerged as of the claim",
+      "result": "confirmed",
+      "how": "GitHub API: created_at 2026-09-11T12:13:12Z, state=open, merged=false"
+    },
+    {
+      "assertion": "the PR adds a per-zone override for each of the 5 zones",
+      "result": "confirmed",
+      "how": "5 files changed per the API; each pinned file hash-matches and contains a direct.unknown block"
+    },
+    {
+      "assertion": "each override weights the repo's own IPCC-2014 per-fuel factors by that zone's latest Ember generation mix",
+      "result": "confirmed for AE and QA by independent recomputation, matching the 5 pinned files' own base factors otherwise unverified by arithmetic for BH/OM/SA",
+      "how": "recomputed weighted average from each file's inline source comment against upstream defaults.yaml factors"
+    }
+  ],
+  "would_raise_confidence": "Independently re-fetching Ember's raw Yearly Electricity Data export and re-deriving each zone's generation-mix percentages myself, rather than trusting the claimant's transcription of them into the source comment; and hand-recomputing BH, OM and SA's weighted values in addition to AE and QA.",
+  "output_hash": "",
+  "diagnosis": "",
+  "magnitude": null,
+  "fraud_caught": false,
+  "fraud_quote": "",
+  "settled_at": "2026-09-16T14:09:38Z",
+  "signature": "nfeyDZPkuXLkLwXmr6ssNKeZMpQH4kHuY71ELzyD2CSYugvJPWhbuj9NxNd9yW8PMklxPUia1+ImzJtAghdpBQ=="
+}
