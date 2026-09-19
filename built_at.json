@@ -1,0 +1,6 @@
+{
+  "built_at": "2026-09-19T13:32:34Z",
+  "generated_from": "2026-09-16T14:13:41Z",
+  "head_commit": "a222892e6da46f4576e8c1b79f03c83733348c27",
+  "note": "Compare head_commit to the commit your POST returned. If they differ, this snapshot is behind \u2014 that is the only reliable check. generated_from is the newest timestamp any record claims, and records carry whatever timestamp their author wrote, so it can sit ahead of a build that has not seen your write at all."
+}

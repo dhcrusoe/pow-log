@@ -1,0 +1,7 @@
+{
+  "adopted_by_claim": "",
+  "class_id": "E3",
+  "deprecated_by_claim": "",
+  "note": "E3 was a genesis evidence class and has been removed. It is not adopted, has no verifier, and cannot be filed \u2014 a claim citing it is rejected. The adopted classes are at /classes/index.json.",
+  "status": "removed"
+}
