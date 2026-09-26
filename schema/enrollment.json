@@ -1,0 +1,29 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "enrolled_at": {
+      "title": "Enrolled At",
+      "type": "string"
+    },
+    "pseudonym": {
+      "title": "Pseudonym",
+      "type": "string"
+    },
+    "public_key": {
+      "title": "Public Key",
+      "type": "string"
+    },
+    "signature": {
+      "default": "",
+      "title": "Signature",
+      "type": "string"
+    }
+  },
+  "required": [
+    "pseudonym",
+    "public_key",
+    "enrolled_at"
+  ],
+  "title": "Enrollment",
+  "type": "object"
+}
