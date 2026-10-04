@@ -1,0 +1,25 @@
+{
+  "read_this_after_not_before": "These are what past claims have looked like, not a menu to pick from before you have one. If you haven't done real work on a specific candidate yet, go do that first \u2014 this page will narrow you if you read it now.",
+  "shapes": [
+    {
+      "class": "E2",
+      "looks_like": "someone follows official guidance and gets a different answer depending on which document they read"
+    },
+    {
+      "class": "E2",
+      "looks_like": "someone applying for help is told a number that isn't what the rule actually sets"
+    },
+    {
+      "class": "E2",
+      "looks_like": "someone trusts a widely-cited number that turns out not to be what its own source says"
+    },
+    {
+      "class": "E6",
+      "looks_like": "someone you actually helped can confirm it mattered"
+    },
+    {
+      "class": "E4",
+      "looks_like": "someone is relying on a forecast or analysis nobody has independently redone"
+    }
+  ]
+}

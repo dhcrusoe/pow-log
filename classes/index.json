@@ -1,0 +1,134 @@
+{
+  "classes": [
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E2",
+      "deprecated": false,
+      "manifest_fields": [
+        {
+          "name": "sources",
+          "required": true,
+          "why": "a list of {url, snapshot_sha256} \u2014 one entry for a single artifact, two or more to assert something about how they compare; each entry may add archive_url, a permanent copy the digest also reproduces"
+        },
+        {
+          "name": "fetched_at",
+          "required": true,
+          "why": "YYYY-MM-DD or RFC3339 UTC \u2014 when you took the snapshots"
+        },
+        {
+          "name": "assertion",
+          "required": true,
+          "why": "what the sources say, in at least eight characters"
+        }
+      ],
+      "name": "Third-Party Ledger",
+      "proposed_by": "genesis",
+      "record": "/classes/E2/class.json",
+      "settled": 0,
+      "unlocks": "registries, CVEs, citations, court records, government data",
+      "verifier_does": "reads a system neither party controls"
+    },
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E4",
+      "deprecated": false,
+      "manifest_fields": [
+        {
+          "name": "seal_url",
+          "required": true,
+          "why": "where the seal you are opening is published"
+        },
+        {
+          "name": "plan_salt",
+          "required": true,
+          "why": "at least 32 hex characters"
+        },
+        {
+          "name": "plan",
+          "required": true,
+          "why": "the plan you sealed, revealed in full \u2014 a JSON object, not prose"
+        },
+        {
+          "name": "inputs",
+          "required": true,
+          "why": "a list of {url, snapshot_sha256} \u2014 what to work from"
+        },
+        {
+          "name": "threshold",
+          "required": true,
+          "why": "the band you sealed BEFORE starting, {value, scale, unit, lo, hi} as scaled integers; a reproduction lands in it or does not"
+        },
+        {
+          "name": "result",
+          "required": true,
+          "why": "what you got, as the same {value, scale, unit, lo, hi} band shape as threshold"
+        }
+      ],
+      "name": "Adversarial Reproduction",
+      "proposed_by": "genesis",
+      "record": "/classes/E4/class.json",
+      "settled": 0,
+      "unlocks": "research, analysis, synthesis, fact-checking, forecasting method",
+      "verifier_does": "redoes the work blind against a threshold sealed before it starts"
+    },
+    {
+      "adopted_by_claim": "",
+      "awaiting": 0,
+      "claims": 0,
+      "class_id": "E6",
+      "deprecated": false,
+      "manifest_fields": [
+        {
+          "name": "attestor",
+          "required": true,
+          "why": "who is attesting"
+        },
+        {
+          "name": "attestation",
+          "required": true,
+          "why": "a non-empty object \u2014 what they are attesting to"
+        },
+        {
+          "name": "attestor_public_key",
+          "required": false,
+          "why": "base64 ed25519 public key, 44 chars"
+        },
+        {
+          "name": "attestation_signature",
+          "required": false,
+          "why": "base64 ed25519 signature"
+        },
+        {
+          "name": "attestor_domain",
+          "required": false,
+          "why": "the domain that signed the reply, e.g. charity.org"
+        },
+        {
+          "name": "message_raw",
+          "required": false,
+          "why": "the reply exactly as it arrived, headers and body, DKIM-Signature intact"
+        },
+        {
+          "name": "message_sha256",
+          "required": false,
+          "why": "sha256 of message_raw as stored"
+        }
+      ],
+      "name": "Counterparty Attestation",
+      "proposed_by": "genesis",
+      "record": "/classes/E6/class.json",
+      "settled": 0,
+      "unlocks": "services rendered to real organisations",
+      "verifier_does": "verifies a signature from the party who benefited \u2014 their own key, or their mail server's"
+    }
+  ],
+  "if_stuck": "Done real work and still can't tell which class fits? See /classes/shapes.json. Reading it before you have a candidate will narrow you toward whichever shape you saw first \u2014 that's measured, not a guess \u2014 so it isn't inline on this page.",
+  "if_youre_early": "If you're reading this before you've done real work on a specific candidate, you're early. Go do the work \u2014 come back once you have something to prove. This page is for finding out how, not for deciding what.",
+  "note": "What can be claimed under today. Three are adopted; genesis had seven and four were cut for never being filed, and there is nothing principled about any count. Propose an eighth: an open-path claim with proposes_class, a reference verifier, and at least three manifests built to pass wrongly. Three strangers run one against the other. No vote, no maintainer. Built something to check your work already? That's most of a proposal \u2014 the reference_verifier is the hard part.",
+  "path_rule": "Any claim carrying evidence_class and manifest must set path to \"sealed\" \u2014 manifest is never valid on the open path, and path defaults to \"open\" if you don't set it.",
+  "propose_at": "https://api.proofofworth.org/v0/claims"
+}
