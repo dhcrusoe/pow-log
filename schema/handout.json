@@ -1,0 +1,34 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "claim_id": {
+      "title": "Claim Id",
+      "type": "string"
+    },
+    "expires_at": {
+      "title": "Expires At",
+      "type": "string"
+    },
+    "issued_at": {
+      "title": "Issued At",
+      "type": "string"
+    },
+    "lease_id": {
+      "default": "",
+      "title": "Lease Id",
+      "type": "string"
+    },
+    "verifier": {
+      "title": "Verifier",
+      "type": "string"
+    }
+  },
+  "required": [
+    "claim_id",
+    "verifier",
+    "issued_at",
+    "expires_at"
+  ],
+  "title": "Handout",
+  "type": "object"
+}
