@@ -1,0 +1,30 @@
+{
+  "canonical_bytes": "{\"action\":\"Compar\u00e9 la traduction \u00e0 l'original, relev\u00e9 les \u00e9carts, publi\u00e9 le tableau des diff\u00e9rences.\",\"boundary\":\"personne \u00e0 risque ne devient une preuve\",\"claim_id\":\"sha256:772444126385f6f8130355dce4470fa902a76e7fda71ec3d82fe6a39cd8e00ba\",\"claimant\":\"worked-example\",\"costs\":\"\",\"domain\":5,\"evidence\":[{\"content\":\"10 \u2192 100\\n\",\"what\":\"le tableau des \u00e9carts\"}],\"how_to_check\":\"R\u00e9cup\u00e9rer les deux fiches et comparer les trois valeurs.\",\"path\":\"open\",\"proposition\":\"La fiche traduite contredit l'original sur trois valeurs \u2014 10, 50 et 200 \u2014 et l'\u00e9cart est reproductible.\",\"resolves\":\"\",\"signature\":\"PHIZpTe87m9SbwwV6IRfk9n3XGe8EOFyCTA2JyhpvoMO7/jWlQNpIARnGxA2kB9o5sLjIHPMx+CT1SsD26CvDw==\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Le manuel traduit indiquait \u00ab 10 \u00bb l\u00e0 o\u00f9 l'original dit \u00ab 100 \u00bb.\"}",
+  "claim_id_bytes": "{\"action\":\"Compar\u00e9 la traduction \u00e0 l'original, relev\u00e9 les \u00e9carts, publi\u00e9 le tableau des diff\u00e9rences.\",\"boundary\":\"personne \u00e0 risque ne devient une preuve\",\"claimant\":\"worked-example\",\"costs\":\"\",\"domain\":5,\"evidence\":[{\"content\":\"10 \u2192 100\\n\",\"what\":\"le tableau des \u00e9carts\"}],\"how_to_check\":\"R\u00e9cup\u00e9rer les deux fiches et comparer les trois valeurs.\",\"path\":\"open\",\"proposition\":\"La fiche traduite contredit l'original sur trois valeurs \u2014 10, 50 et 200 \u2014 et l'\u00e9cart est reproductible.\",\"resolves\":\"\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Le manuel traduit indiquait \u00ab 10 \u00bb l\u00e0 o\u00f9 l'original dit \u00ab 100 \u00bb.\"}",
+  "post_to": "https://api.proofofworth.org/v0/claims",
+  "record": {
+    "action": "Compar\u00e9 la traduction \u00e0 l'original, relev\u00e9 les \u00e9carts, publi\u00e9 le tableau des diff\u00e9rences.",
+    "boundary": "personne \u00e0 risque ne devient une preuve",
+    "claim_id": "sha256:772444126385f6f8130355dce4470fa902a76e7fda71ec3d82fe6a39cd8e00ba",
+    "claimant": "worked-example",
+    "costs": "",
+    "domain": 5,
+    "evidence": [
+      {
+        "content": "10 \u2192 100\n",
+        "what": "le tableau des \u00e9carts"
+      }
+    ],
+    "how_to_check": "R\u00e9cup\u00e9rer les deux fiches et comparer les trois valeurs.",
+    "path": "open",
+    "proposition": "La fiche traduite contredit l'original sur trois valeurs \u2014 10, 50 et 200 \u2014 et l'\u00e9cart est reproductible.",
+    "resolves": "",
+    "signature": "PHIZpTe87m9SbwwV6IRfk9n3XGe8EOFyCTA2JyhpvoMO7/jWlQNpIARnGxA2kB9o5sLjIHPMx+CT1SsD26CvDw==",
+    "submitted_at": "2026-01-01T00:00:00Z",
+    "valid_as_of": "2026-01-01",
+    "why": "Le manuel traduit indiquait \u00ab 10 \u00bb l\u00e0 o\u00f9 l'original dit \u00ab 100 \u00bb."
+  },
+  "signed_bytes": "{\"action\":\"Compar\u00e9 la traduction \u00e0 l'original, relev\u00e9 les \u00e9carts, publi\u00e9 le tableau des diff\u00e9rences.\",\"boundary\":\"personne \u00e0 risque ne devient une preuve\",\"claim_id\":\"sha256:772444126385f6f8130355dce4470fa902a76e7fda71ec3d82fe6a39cd8e00ba\",\"claimant\":\"worked-example\",\"costs\":\"\",\"domain\":5,\"evidence\":[{\"content\":\"10 \u2192 100\\n\",\"what\":\"le tableau des \u00e9carts\"}],\"how_to_check\":\"R\u00e9cup\u00e9rer les deux fiches et comparer les trois valeurs.\",\"path\":\"open\",\"proposition\":\"La fiche traduite contredit l'original sur trois valeurs \u2014 10, 50 et 200 \u2014 et l'\u00e9cart est reproductible.\",\"resolves\":\"\",\"submitted_at\":\"2026-01-01T00:00:00Z\",\"valid_as_of\":\"2026-01-01\",\"why\":\"Le manuel traduit indiquait \u00ab 10 \u00bb l\u00e0 o\u00f9 l'original dit \u00ab 100 \u00bb.\"}",
+  "the_one_flag_that_matters": "ensure_ascii=False, or your language's equivalent. RFC 8785 escapes only what JSON requires: quote, backslash, and below 0x20.",
+  "what_this_shows": "Canonical bytes are UTF-8, not escaped ASCII. Every string here is non-ASCII, so a naive compact dump disagrees with canonical_bytes in the first field and every field after it. If your serializer passes this one it will pass anything."
+}

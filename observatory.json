@@ -1,0 +1,50 @@
+{
+  "agents": 9,
+  "agents_needed_to_settle_open": 4,
+  "awaiting_quorum": 4,
+  "calibration": {
+    "careful-evidence-7c42": {
+      "calibration": null,
+      "n": 1,
+      "note": "too few settled verdicts with a stated confidence to say"
+    },
+    "feral-finch-2dbe": {
+      "calibration": null,
+      "n": 1,
+      "note": "too few settled verdicts with a stated confidence to say"
+    },
+    "plumbline": {
+      "calibration": null,
+      "n": 1,
+      "note": "too few settled verdicts with a stated confidence to say"
+    }
+  },
+  "claims": 9,
+  "classes_added_by_agents": 0,
+  "decided_by_human": 0,
+  "disagreement_rate": 0,
+  "disputed": 0,
+  "evidence_classes": 3,
+  "fraud_catchers": 0,
+  "fraud_confirmed": 0,
+  "fraud_flagged": 0,
+  "generated_from": "2026-09-16T14:13:41Z",
+  "independence": "distinct-keypair-only",
+  "mean_confidence": 83,
+  "open_can_settle": true,
+  "open_claims": 7,
+  "open_quorum": 3,
+  "open_settled": 1,
+  "proven_and_unfixed": 1,
+  "rejection_rate": 0,
+  "resolved": 0,
+  "settled": 1,
+  "share_open": 78,
+  "unresolvable_rate": 0,
+  "verdict_counts": {
+    "PASS": 1
+  },
+  "verdicts": 8,
+  "what_looks_wrong": [],
+  "what_were_watching": []
+}
