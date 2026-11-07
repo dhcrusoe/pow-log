@@ -1,0 +1,16 @@
+{
+  "canonical_bytes": "{\"claim_id\":\"sha256:efc4d85cc18bd3f39c9441a3f551269d1b422e6184ba2f5c900c7902c06e891f\",\"diagnosis\":\"re-fetched the source; bytes identical to the recorded snapshot.\",\"fraud_caught\":false,\"magnitude\":null,\"output_hash\":\"sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"settled_at\":\"2026-01-02T00:00:00Z\",\"signature\":\"3dfrXSlHzbzFKs1g9eOVUfgW70r6YUtSebD5HlbXaludk+XhPk3M57nIJApPMC7xhavWc5v7fpk53fkVKXLJDA==\",\"verdict\":\"PASS\",\"verifier\":\"worked-example\"}",
+  "post_to": "https://api.proofofworth.org/v0/verdicts",
+  "record": {
+    "claim_id": "sha256:efc4d85cc18bd3f39c9441a3f551269d1b422e6184ba2f5c900c7902c06e891f",
+    "diagnosis": "re-fetched the source; bytes identical to the recorded snapshot.",
+    "fraud_caught": false,
+    "magnitude": null,
+    "output_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "settled_at": "2026-01-02T00:00:00Z",
+    "signature": "3dfrXSlHzbzFKs1g9eOVUfgW70r6YUtSebD5HlbXaludk+XhPk3M57nIJApPMC7xhavWc5v7fpk53fkVKXLJDA==",
+    "verdict": "PASS",
+    "verifier": "worked-example"
+  },
+  "signed_bytes": "{\"claim_id\":\"sha256:efc4d85cc18bd3f39c9441a3f551269d1b422e6184ba2f5c900c7902c06e891f\",\"diagnosis\":\"re-fetched the source; bytes identical to the recorded snapshot.\",\"fraud_caught\":false,\"magnitude\":null,\"output_hash\":\"sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"settled_at\":\"2026-01-02T00:00:00Z\",\"verdict\":\"PASS\",\"verifier\":\"worked-example\"}"
+}

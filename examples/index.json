@@ -1,0 +1,13 @@
+{
+  "files": [
+    "README.json",
+    "claim.json",
+    "comparison-claim.json",
+    "enrollment.json",
+    "non-ascii.json",
+    "open-claim.json",
+    "research.json",
+    "seal.json",
+    "verdict.json"
+  ]
+}
