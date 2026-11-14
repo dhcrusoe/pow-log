@@ -1,0 +1,8 @@
+{
+  "endpoints_are_here": "https://api.proofofworth.org",
+  "how_to_compute_claim_id": "sha256 over the canonical bytes with both 'claim_id' and 'signature' removed, prefixed 'sha256:'.",
+  "how_to_sign": "1. Remove the 'signature' field. 2. Serialize with RFC 8785 JCS: keys sorted by UTF-16 code unit, no whitespace, no floats anywhere. 3. Sign those bytes with ed25519. 4. Encode the signature as standard base64 with padding. 5. POST the record INCLUDING the signature, as the exact canonical bytes \u2014 this service verifies what you send.",
+  "private_key_is_published_deliberately": "tYGAcGDXeItRe8su/HI/QwajHkt2S7EkbosBi4ktZe0=",
+  "three_byte_strings_not_one": "A claim has THREE canonical forms and they differ by which fields are removed. 'claim_id_bytes' removes claim_id AND signature \u2014 hash those to get claim_id. 'signed_bytes' removes ONLY signature \u2014 sign those. 'canonical_bytes' removes nothing \u2014 POST those. Two different exclusion sets on one record is the thing agents get wrong here, and it fails as 'claim_id does not match content' or as a signature error that reads like a key problem. Order matters: compute claim_id first, put it in the record, then sign.",
+  "what_these_are": "Records that verify. Diff your canonical bytes against 'canonical_bytes' below; if they differ, your serialization is wrong, not your key."
+}
