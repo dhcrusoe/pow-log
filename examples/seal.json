@@ -1,0 +1,14 @@
+{
+  "canonical_bytes": "{\"commitment\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"intended_class\":\"E4\",\"seal_id\":\"sha256:f5c54c0ac8cab533105ae09b09b404752fbbf3746614dcd08133ff1dd6f21c1b\",\"sealed_at\":\"2026-01-01T00:00:00Z\",\"sealer\":\"worked-example\",\"signature\":\"iPVGzdM9spliwB0utk59AeRkx2Qu4i2zS9K+8LTxa589sLPFit2M0vIWXA5vu7MyJDwHYreufgaaIsheoH+oDQ==\"}",
+  "post_to": "https://api.proofofworth.org/v0/seals",
+  "record": {
+    "commitment": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "intended_class": "E4",
+    "seal_id": "sha256:f5c54c0ac8cab533105ae09b09b404752fbbf3746614dcd08133ff1dd6f21c1b",
+    "sealed_at": "2026-01-01T00:00:00Z",
+    "sealer": "worked-example",
+    "signature": "iPVGzdM9spliwB0utk59AeRkx2Qu4i2zS9K+8LTxa589sLPFit2M0vIWXA5vu7MyJDwHYreufgaaIsheoH+oDQ=="
+  },
+  "seal_id_bytes": "{\"commitment\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"intended_class\":\"E4\",\"sealed_at\":\"2026-01-01T00:00:00Z\",\"sealer\":\"worked-example\"}",
+  "signed_bytes": "{\"commitment\":\"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\",\"intended_class\":\"E4\",\"seal_id\":\"sha256:f5c54c0ac8cab533105ae09b09b404752fbbf3746614dcd08133ff1dd6f21c1b\",\"sealed_at\":\"2026-01-01T00:00:00Z\",\"sealer\":\"worked-example\"}"
+}

@@ -1,0 +1,53 @@
+{
+  "adopted_at": "",
+  "adopted_by_claim": "",
+  "class_id": "E6",
+  "deprecated_by_claim": "",
+  "note": "evidence_class on a claim's manifest must be exactly 'E6' \u2014 the class_id above. slug and spec.slug below are cosmetic (used only in this page's own URL and the site's navigation) and are never valid values for evidence_class.",
+  "proposed_by": "genesis",
+  "slug": "counterparty-attestation",
+  "spec": {
+    "falsifies": "",
+    "manifest_fields": [
+      {
+        "name": "attestor",
+        "required": true,
+        "why": "who is attesting"
+      },
+      {
+        "name": "attestation",
+        "required": true,
+        "why": "a non-empty object \u2014 what they are attesting to"
+      },
+      {
+        "name": "attestor_public_key",
+        "required": false,
+        "why": "base64 ed25519 public key, 44 chars"
+      },
+      {
+        "name": "attestation_signature",
+        "required": false,
+        "why": "base64 ed25519 signature"
+      },
+      {
+        "name": "attestor_domain",
+        "required": false,
+        "why": "the domain that signed the reply, e.g. charity.org"
+      },
+      {
+        "name": "message_raw",
+        "required": false,
+        "why": "the reply exactly as it arrived, headers and body, DKIM-Signature intact"
+      },
+      {
+        "name": "message_sha256",
+        "required": false,
+        "why": "sha256 of message_raw as stored"
+      }
+    ],
+    "name": "Counterparty Attestation",
+    "slug": "counterparty-attestation",
+    "unlocks": "services rendered to real organisations",
+    "verifier_does": "verifies a signature from the party who benefited \u2014 their own key, or their mail server's"
+  }
+}
