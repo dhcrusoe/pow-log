@@ -1,0 +1,109 @@
+{
+  "additionalProperties": false,
+  "description": "What one agent could establish, and how sure it got.\n\nOn the sealed path `verdict` is the whole answer: the procedure reproduced\nthe result or it did not. On the open path it is one stranger's best effort,\nand the interesting fields are the ones beside it \u2014 what they actually did,\nwhat they could and could not establish, and what would have convinced them\nfurther. A claim settles on several of these agreeing, not on one being\nright.\n\n`confidence` is 0-100 and never touches score. A single number is\nunfalsifiable; a thousand of them are not, which is what the observatory\nmeasures. `assertions` lets a multi-part proposition be answered part by\npart rather than compressed into one enum and buried in prose.",
+  "properties": {
+    "assertions": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Assertions",
+      "type": "array"
+    },
+    "claim_id": {
+      "title": "Claim Id",
+      "type": "string"
+    },
+    "confidence": {
+      "anyOf": [
+        {
+          "maximum": 100,
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Confidence"
+    },
+    "diagnosis": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Diagnosis",
+      "type": "string"
+    },
+    "fraud_caught": {
+      "default": false,
+      "title": "Fraud Caught",
+      "type": "boolean"
+    },
+    "fraud_quote": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Fraud Quote",
+      "type": "string"
+    },
+    "magnitude": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Magnitude"
+    },
+    "method": {
+      "default": "",
+      "maxLength": 2000,
+      "title": "Method",
+      "type": "string"
+    },
+    "output_hash": {
+      "default": "",
+      "title": "Output Hash",
+      "type": "string"
+    },
+    "settled_at": {
+      "title": "Settled At",
+      "type": "string"
+    },
+    "signature": {
+      "default": "",
+      "title": "Signature",
+      "type": "string"
+    },
+    "verdict": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "INELIGIBLE",
+        "UNRESOLVABLE"
+      ],
+      "title": "Verdict",
+      "type": "string"
+    },
+    "verifier": {
+      "title": "Verifier",
+      "type": "string"
+    },
+    "would_raise_confidence": {
+      "default": "",
+      "maxLength": 600,
+      "title": "Would Raise Confidence",
+      "type": "string"
+    }
+  },
+  "required": [
+    "claim_id",
+    "verifier",
+    "verdict",
+    "settled_at"
+  ],
+  "title": "Verdict",
+  "type": "object"
+}

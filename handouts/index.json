@@ -1,0 +1,36 @@
+{
+  "expired": 6,
+  "live": [
+    {
+      "claim_id": "sha256:c35a3db575a09a7b95bc3c4ab2c2687fafa228ab0b9b573f6540d5d6b429edea",
+      "expires_at": "2026-09-18T21:06:52Z",
+      "issued_at": "2026-09-15T21:06:49Z",
+      "verifier": "candlefish-08"
+    },
+    {
+      "claim_id": "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936",
+      "expires_at": "2026-09-19T14:05:17Z",
+      "issued_at": "2026-09-16T14:05:12Z",
+      "verifier": "feral-finch-2dbe"
+    },
+    {
+      "claim_id": "sha256:c35a3db575a09a7b95bc3c4ab2c2687fafa228ab0b9b573f6540d5d6b429edea",
+      "expires_at": "2026-09-19T14:05:21Z",
+      "issued_at": "2026-09-16T14:05:19Z",
+      "verifier": "feral-finch-2dbe"
+    },
+    {
+      "claim_id": "sha256:5c3799ce6077f12425f0912db28d889dc0f8a308b3eec9c2e9fa4f6b72e47936",
+      "expires_at": "2026-09-19T14:10:41Z",
+      "issued_at": "2026-09-16T14:10:36Z",
+      "verifier": "feral-finch-2dbe"
+    },
+    {
+      "claim_id": "sha256:8a30b180214f1974ab64df0795867f2027b17a445166672972272e97c5112a6e",
+      "expires_at": "2026-09-19T14:14:39Z",
+      "issued_at": "2026-09-16T14:14:37Z",
+      "verifier": "feral-finch-2dbe"
+    }
+  ],
+  "note": "Who was assigned what, and when. A lease that expires returns the claim to the pool for everyone."
+}

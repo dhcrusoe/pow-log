@@ -1,0 +1,34 @@
+{
+  "canonical_bytes": "{\"audience\":\"US public school teachers, grades K-12\",\"conclusion\":\"The materials teachers actually use are the ones nobody can get bytes for. Provability and importance point apart here.\",\"domain\":5,\"findings\":[{\"evidence\":\"publisher errata backlog, 401 open records\",\"problem\":\"answer keys disagree with their own worked solutions\"}],\"published_at\":\"2026-01-01T00:00:00Z\",\"question\":\"What do K-12 teachers report is broken about the open materials they teach from?\",\"rejected\":[{\"candidate\":\"sight-word list mirrors\",\"why\":\"every public mirror is a hobby repo with no users. Provable and worth nothing, which is the trap this network warns about.\"}],\"research_id\":\"sha256:eaea9d1646955833bd9e0fb542e059df0ebce30bbff77dd7b234b74eb467e085\",\"researcher\":\"worked-example\",\"signature\":\"MxEHcPCfkBbGMdhXg684eC2YTi/FUP/IzJS+wv7IihDVl5iBmJW43WPqVCN0u7ztkB2nNaBNm6HWOr7610/rBQ==\",\"sources\":[{\"url\":\"https://example.org/errata.json\",\"what\":\"publisher errata\"}]}",
+  "post_to": "https://api.proofofworth.org/v0/research",
+  "record": {
+    "audience": "US public school teachers, grades K-12",
+    "conclusion": "The materials teachers actually use are the ones nobody can get bytes for. Provability and importance point apart here.",
+    "domain": 5,
+    "findings": [
+      {
+        "evidence": "publisher errata backlog, 401 open records",
+        "problem": "answer keys disagree with their own worked solutions"
+      }
+    ],
+    "published_at": "2026-01-01T00:00:00Z",
+    "question": "What do K-12 teachers report is broken about the open materials they teach from?",
+    "rejected": [
+      {
+        "candidate": "sight-word list mirrors",
+        "why": "every public mirror is a hobby repo with no users. Provable and worth nothing, which is the trap this network warns about."
+      }
+    ],
+    "research_id": "sha256:eaea9d1646955833bd9e0fb542e059df0ebce30bbff77dd7b234b74eb467e085",
+    "researcher": "worked-example",
+    "signature": "MxEHcPCfkBbGMdhXg684eC2YTi/FUP/IzJS+wv7IihDVl5iBmJW43WPqVCN0u7ztkB2nNaBNm6HWOr7610/rBQ==",
+    "sources": [
+      {
+        "url": "https://example.org/errata.json",
+        "what": "publisher errata"
+      }
+    ]
+  },
+  "research_id_bytes": "{\"audience\":\"US public school teachers, grades K-12\",\"conclusion\":\"The materials teachers actually use are the ones nobody can get bytes for. Provability and importance point apart here.\",\"domain\":5,\"findings\":[{\"evidence\":\"publisher errata backlog, 401 open records\",\"problem\":\"answer keys disagree with their own worked solutions\"}],\"published_at\":\"2026-01-01T00:00:00Z\",\"question\":\"What do K-12 teachers report is broken about the open materials they teach from?\",\"rejected\":[{\"candidate\":\"sight-word list mirrors\",\"why\":\"every public mirror is a hobby repo with no users. Provable and worth nothing, which is the trap this network warns about.\"}],\"researcher\":\"worked-example\",\"sources\":[{\"url\":\"https://example.org/errata.json\",\"what\":\"publisher errata\"}]}",
+  "signed_bytes": "{\"audience\":\"US public school teachers, grades K-12\",\"conclusion\":\"The materials teachers actually use are the ones nobody can get bytes for. Provability and importance point apart here.\",\"domain\":5,\"findings\":[{\"evidence\":\"publisher errata backlog, 401 open records\",\"problem\":\"answer keys disagree with their own worked solutions\"}],\"published_at\":\"2026-01-01T00:00:00Z\",\"question\":\"What do K-12 teachers report is broken about the open materials they teach from?\",\"rejected\":[{\"candidate\":\"sight-word list mirrors\",\"why\":\"every public mirror is a hobby repo with no users. Provable and worth nothing, which is the trap this network warns about.\"}],\"research_id\":\"sha256:eaea9d1646955833bd9e0fb542e059df0ebce30bbff77dd7b234b74eb467e085\",\"researcher\":\"worked-example\",\"sources\":[{\"url\":\"https://example.org/errata.json\",\"what\":\"publisher errata\"}]}"
+}
